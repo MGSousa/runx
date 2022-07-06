@@ -383,6 +383,7 @@ check_dependencies() {          # Check all dependencies
   Vcxsrvexe="$(command -v vcxsrv.exe)"
   [ "$Vcxsrvexe" ] || Vcxsrvexe="$(command -v "$(convertpath subsystem "C:/Program Files/VcXsrv/vcxsrv.exe")")"
   [ "$Vcxsrvexe" ] || Vcxsrvexe="$(command -v "$(convertpath subsystem "C:/Program Files/VcXsrv (x86)/vcxsrv.exe")")"
+  [ "$Vcxsrvexe" ] || Vcxsrvexe="$(command -v "$(convertpath subsystem "D:/VcXsrv-X11/VcXsrv/vcxsrv.exe")")"
   Xwinexe="$(command -v XWin)"
   [ -z "$Xwinexe" ] && case $Winsubsystem in
     WSL1|WSL2)
