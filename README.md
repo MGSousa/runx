@@ -49,7 +49,7 @@ Installation in general:
 ### Installation in WSL
  - Run the following commands in WSL/Ubuntu terminal to install `runx` and its dependencies:
    ```
-   sudo wget https://raw.githubusercontent.com/mviereck/runx/master/runx -O /usr/local/bin/runx
+   sudo wget https://raw.githubusercontent.com/MGSousa/runx/master/runx -O /usr/local/bin/runx
    sudo chmod +x /usr/local/bin/runx
    sudo apt update
    sudo apt install xauth
@@ -59,7 +59,7 @@ Installation in general:
  - Run the Cygwin installer and install packages `xinit`, `xauth` and `wget`.
  - In Cygwin terminal run the commands:
    ```
-   wget https://raw.githubusercontent.com/mviereck/runx/master/runx -O /usr/local/bin/runx
+   wget https://raw.githubusercontent.com/MGSousa/runx/master/runx -O /usr/local/bin/runx
    chmod +x /usr/local/bin/runx
    ```
    
@@ -67,7 +67,7 @@ Installation in general:
  - In MSYS2 terminal run the commands:
    ```
    mkdir /usr/local/bin
-   wget https://raw.githubusercontent.com/mviereck/runx/master/runx -O /usr/local/bin/runx
+   wget https://raw.githubusercontent.com/MGSousa/runx/master/runx -O /usr/local/bin/runx
    chmod +x /usr/local/bin/runx
    ```
  - Constraints in MSYS2: 
